@@ -34,3 +34,21 @@ C:\Users\jif_c\Desktop\progra5\Proyectoweb\Proyectoweb\bin\System.Web.Mvc.xml
 C:\Users\jif_c\Desktop\progra5\Proyectoweb\Proyectoweb\obj\Debug\Proyectoweb.csprojResolveAssemblyReference.cache
 C:\Users\jif_c\Desktop\progra5\Proyectoweb\Proyectoweb\obj\Debug\Proyectoweb.dll
 C:\Users\jif_c\Desktop\progra5\Proyectoweb\Proyectoweb\obj\Debug\Proyectoweb.pdb
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\Proyectoweb.dll.config
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\Proyectoweb.dll
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\Proyectoweb.pdb
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Helpers.dll
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Mvc.dll
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Razor.dll
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Webpages.dll
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Webpages.Razor.dll
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Razor.xml
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Webpages.xml
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Webpages.Razor.xml
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Helpers.xml
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\bin\System.Web.Mvc.xml
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\obj\Debug\Proyectoweb.csprojResolveAssemblyReference.cache
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\obj\Debug\Proyectoweb.dll
+C:\Users\jif_c\Documents\Tecnologias de la Informaciòn\VI Cuatrimestre\Progra 5\Web Service\prog\WebServices\Proyectoweb\Proyectoweb\obj\Debug\Proyectoweb.pdb
