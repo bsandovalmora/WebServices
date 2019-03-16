@@ -25,5 +25,9 @@ namespace Proyectoweb.Controllers
 				{
 					return View();
 				}
+				public ActionResult Automovil()
+				{
+					return View();
+				}
     }
 }

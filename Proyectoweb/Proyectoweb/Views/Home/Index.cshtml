@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="~/Styles/index.css" />
     <title>Inicio</title>
 </head>
-<body>
+<body style="background-color:#F5F2F1;">
     <div class="main container"> 
 			<ul class="nav justify-content-end">
 				<li class="nav-item">
@@ -26,138 +26,146 @@
 					<a class="nav-link" href="~/Home/register">Registrarme</a>
 				</li>
 			</ul>
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
+			<div class="shadow p-3 mb-5 bg-white rounded">
+				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item">
+							<img src="~/img/Automovil.jpg" class="d-block w-100" alt="" />
+						</div>
+						<div class="carousel-item">
+							<img src="~/img/las-sorprendentes-razones-por-las-que-los-aviones-son-blancos.jpg" class="d-block w-100" alt="" />
+						</div>
+					</div>
 					<div class="carousel-item">
-						<img src="~/img/Automovil.jpg" class="d-block w-100" alt="" />
-					</div>
-					<div class="carousel-item">
-						<img src="~/img/las-sorprendentes-razones-por-las-que-los-aviones-son-blancos.jpg" class="d-block w-100" alt="" />
+						<img src="~/img/DSC-4746x.jpg" class="d-block w-100" alt="" />
 					</div>
 				</div>
-				<div class="carousel-item">
-					<img src="~/img/DSC-4746x.jpg" class="d-block w-100" alt="" />
+				<nav>
+					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Hoteles</a>
+						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Autom&oacute;viles</a>
+						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Boletos de viaje</a>
+					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+						<br />
+						<br />
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/hotel villadomat.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">hotel villadomat</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Ver Habitaciones</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/hotel calacoto.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Hotel Calacoto</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Ver Habitaciones</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/Hotel Emporio.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Hotel Emporio</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Ver Habitaciones
+								</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/hotel Riu Palace.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Ver Habitaciones</a>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						<br />
+						<br />
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/m-de-volvo-carros-bajo-demanda-feat.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Lincon A400</h5>
+								<p class="card-text">
+									<ul>
+										<li>Precio:100$ por dia</li>
+										<li>Marca: Lincon</li>
+										<li>Entrega: Inmediata</li>
+									</ul>
+								</p>
+								<a href="~/Home/Automovil" class="btn btn-primary">Alquilar</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/Automovil.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="~/Home/Automovil" class="btn btn-primary">Alquilar</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/carros-para-camping-head-720x480.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="~/Home/Automovil" class="btn btn-primary">Alquilar</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/C.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="~/Home/Automovil" class="btn btn-primary">Alquilar</a>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+						<br />
+						<br />
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/Globel travel.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Ver Boletos</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/goldTOUR.png" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Ver Boletos</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/terramar.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Agencia Terramar</h5>
+								<p class="card-text">Ocasion oara viajar? no lo piense y elijanos</p>
+								<a href="" class="btn btn-primary">Ver Boletos</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<img src="~/img/Carebag.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Ver Boletos</a>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<nav>
-				<div class="nav nav-tabs" id="nav-tab" role="tablist">
-					<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Hoteles</a>
-					<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Autom&oacute;viles</a>
-					<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Boletos de viaje</a>
-				</div>
-			</nav>
-			<div class="tab-content" id="nav-tabContent">
-				<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-					<br />
-					<br />
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-					<br />
-					<br />
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-					<br />
-					<br />
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="..." class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-			</div>
+			</div>	
     </div>
-		
 </body>
 
 </html>

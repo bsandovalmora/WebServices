@@ -83,8 +83,23 @@
     <Content Include="Global.asax" />
     <Content Include="img\3348dfd6b7e1621718c6542b2114bf60.jpg" />
     <Content Include="img\Automovil.jpg" />
+    <Content Include="img\barcelo.jpg" />
+    <Content Include="img\C.jpg" />
+    <Content Include="img\Carebag.jpg" />
+    <Content Include="img\carros-para-camping-head-720x480.jpg" />
     <Content Include="img\DSC-4746x.jpg" />
+    <Content Include="img\Globel travel.jpg" />
+    <Content Include="img\goldTOUR.png" />
+    <Content Include="img\hotel calacoto.jpg" />
+    <Content Include="img\Hotel Emporio.jpg" />
+    <Content Include="img\hotel Riu Palace.jpg" />
+    <Content Include="img\hotel villadomat.jpg" />
+    <Content Include="img\images.jpg" />
     <Content Include="img\las-sorprendentes-razones-por-las-que-los-aviones-son-blancos.jpg" />
+    <Content Include="img\logo_viajes_y_destinos_panama.jpg" />
+    <Content Include="img\m-de-volvo-carros-bajo-demanda-feat.jpg" />
+    <Content Include="img\screen-shot-2018-01-04-at-16-26-16.png" />
+    <Content Include="img\terramar.jpg" />
     <Content Include="Styles\bootstrap-4.2.1-dist\bootstrap-4.2.1-dist\css\bootstrap-grid.css" />
     <Content Include="Styles\bootstrap-4.2.1-dist\bootstrap-4.2.1-dist\css\bootstrap-grid.min.css" />
     <Content Include="Styles\bootstrap-4.2.1-dist\bootstrap-4.2.1-dist\css\bootstrap-reboot.css" />
@@ -123,6 +138,7 @@
     <Content Include="Views\Home\ingresar.cshtml" />
     <Content Include="Views\Home\ActionIn.cshtml" />
     <Content Include="Views\Home\register.cshtml" />
+    <Content Include="Views\Home\Automovil.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
