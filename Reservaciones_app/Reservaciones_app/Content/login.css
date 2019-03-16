@@ -1,0 +1,19 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.ui-page {
+    background: #5480f1;
+    font-family: 'Roboto';
+}
+.ui-header-footer {
+    background: white;
+    color: #5480f1;
+}
+
+.ui-content{
+    margin-top:30%;
+}
+
+.ui-footer{
+    margin-top:35%;
+    text-align:center;
+}

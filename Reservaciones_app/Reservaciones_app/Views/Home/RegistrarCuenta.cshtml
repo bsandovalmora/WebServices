@@ -1,0 +1,53 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/jquery_mobile/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/jquery_mobile/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/principal.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Regístrate</title>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="c">
+            <a href="/Home/Index" data-rel="back" class="ui-btn-left ui-btn  ui-btn-icon-notext ui-corner-all ui-icon-back">Regresar</a>
+            <h1>Regístrate</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <form action="" method="post">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+                <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+
+                <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+
+                <input type="number" name="cedula" id="cedula" placeholder="Cédula">
+
+                <input type="email" name="correo" id="correo" placeholder="Correo electrónico ">
+
+                <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
+
+                <input type="text" name="Dirección" id="Dirección" placeholder="Dirección">
+
+                <input type="text" name="postal" id="postal" placeholder="Codigo postal">
+
+                <input type="text" name="tarjeta" id="tarjeta" placeholder="Numero de tarjeta">
+
+                <input type="password" name="pass" id="pass" placeholder="Contraseña">
+
+                <input type="password" name="pass_1" id="pass_1" placeholder="Confirmar contraseña">
+
+                <input class="ui-btn ui-corner-all" type="submit" value="Registrarse" name="registrar" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>

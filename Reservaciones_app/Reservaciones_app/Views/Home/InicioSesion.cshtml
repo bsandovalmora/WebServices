@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/jquery_mobile/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/jquery_mobile/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/login.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <a href="/Home/Index" data-rel="back" class="ui-btn-left ui-btn  ui-btn-icon-notext ui-corner-all ui-icon-back">Regresar</a>
+            <h1>Inicio de sesión</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <form action="" method="post">
+                <input type="text" name="txt-email" id="txt-email" placeholder="Nombre de usuario">
+                <br />
+                <input type="password" name="pass" id="pass" placeholder="Contraseña">
+                <br />
+                <input class="ui-btn ui-corner-all" type="submit" value="Ingresar" name="iniciar" />
+                <br />
+            </form>
+
+        </div>
+        <div data-role="footer">
+            <p class="mc-top-margin-1-5"><a href="begin-password-reset.html">¿Olvidaste la contraseña?</a></p>
+        </div>
+    </div>
+</body>
+</html>

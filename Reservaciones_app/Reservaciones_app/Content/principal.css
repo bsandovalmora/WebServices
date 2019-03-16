@@ -1,0 +1,11 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.ui-page {
+    background: #5480f1;
+    font-family: 'Roboto';
+}
+.ui-header {
+    background: white;
+    color: black;
+    font-size:20px;
+}
